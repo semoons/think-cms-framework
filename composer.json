@@ -19,7 +19,7 @@
         "dg/mysql-dump": "1.3.0",
         "upyun/sdk": "^3.0",
         "kucms/core-lib": "dev-master",
-        "kucms/kucms/think-cms-installer": "dev-master",
+        "kucms/kucms/think-cms-installer": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
