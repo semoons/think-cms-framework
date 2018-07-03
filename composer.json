@@ -1,0 +1,33 @@
+{
+    "name": "kucms/think-cms-framework",
+    "description": "CMS框架",
+    "type": "think-cms-framework",
+    "homepage": "http://www.waakuu.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "semoon",
+            "email": "12139267@qq.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^5.0",
+        "topthink/think-captcha": "*",
+        "topthink/think-helper": "*",
+        "topthink/think-image": "*",
+        "topthink/think-queue": "*",
+        "dg/mysql-dump": "1.3.0",
+        "upyun/sdk": "^3.0",
+        "kucms/core-lib": "dev-master",
+        "kucms/kucms/think-cms-installer": "dev-master",
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "cms\\": "library"
+        },
+        "files": [
+            "common.php"
+        ]
+    }
+}
